@@ -61,7 +61,7 @@ async function sendEmail(formData) {
     .sendMail({
       from: "yilmaz.u.237@gmail.com",
       to: "aslounvr@gmail.com",
-      subject: "Itech robotik iş başvurusu ✔",
+      subject: "Itech robotik İletişim Mesajı ✔",
       html: htmlContent,
     })
     .then((info) => {
