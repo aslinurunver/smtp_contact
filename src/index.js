@@ -60,7 +60,7 @@ async function sendEmail(formData) {
   transporter
     .sendMail({
       from: "itechroboticssoftware@gmail.com",
-      to: "outlook_91C4729727569333@outlook.com",
+      to: "info@itechrobotics.com",
       subject: "Itech robotik İletişim Mesajı ✔",
       html: htmlContent,
     })
